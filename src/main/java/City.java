@@ -11,7 +11,7 @@ public class City {
     public static void main(String[] args) {
 
         // Создаем объект зоопарк
-        Zoo myFavoriteZoo = new Zoo("FunnyBober", "Moscow, VDNH", time1);
+        Zoo myFavoriteZoo = new Zoo("FunnyBober", "Moscow, VDNH", "9:00-17:00");
 
         // Создаем объект лев
         Lion lionBarsik = new Lion("Млекопитающие", "Самец", "5 лет", "Барсик");
