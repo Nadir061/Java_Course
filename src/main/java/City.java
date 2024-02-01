@@ -3,6 +3,7 @@ import animals.Animals;
 import animals.Lion;
 
 public class City {
+    String nameMayor = "Anam Nadir";
 
     static String time1 = "9:00-17:00";
     static String time2 = "18:00";
