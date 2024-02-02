@@ -4,10 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo {
-    String name;
-    String address;
-    String workingHours;
+    private String name;
+    private String address;
+    private String workingHours;
     List<Animals> animalsList = new ArrayList<>();
+
+    public Zoo() {
+    }
 
     public Zoo(String name, String address, String workingHours) {
         this.name = name;
@@ -47,5 +50,17 @@ public class Zoo {
 
     public String getWorkingHours() {
         return workingHours;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setWorkingHours(String workingHours) {
+        this.workingHours = workingHours;
     }
 }
