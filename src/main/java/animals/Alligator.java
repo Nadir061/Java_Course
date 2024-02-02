@@ -12,13 +12,5 @@ public class Alligator extends Animals {
         return "Аллигатор ревет !";
     }
 
-    @Override
-    public String toString() {
-        return "Alligator{" +
-                "type='" + type + '\'' +
-                ", gender='" + gender + '\'' +
-                ", age='" + age + '\'' +
-                ", name='" + name + '\'' +
-                '}';
-    }
+
 }

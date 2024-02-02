@@ -11,13 +11,4 @@ public class Lion extends Animals {
         return "Лев рычит !";
     }
 
-    @Override
-    public String toString() {
-        return "Lion{" +
-                "type='" + type + '\'' +
-                ", gender='" + gender + '\'' +
-                ", age='" + age + '\'' +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }
