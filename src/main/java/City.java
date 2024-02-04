@@ -5,7 +5,7 @@ import animals.Lion;
 public class City {
 
     // Имя мэра
-    String nameMayor = "Anam Nadir";
+    String nameMayor = "Pupsik";
 
     static String time1 = "9:00-17:00";
     static String time2 = "18:00";
