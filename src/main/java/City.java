@@ -7,6 +7,8 @@ public class City {
     // Имя мэра
     String nameMayor = "Anam Nadir";
 
+    String name = "Moscow";
+
     static String time1 = "9:00-17:00";
     static String time2 = "18:00";
     static String separator = "--------------------------";
@@ -25,10 +27,10 @@ public class City {
         Lion lionBarsik = new Lion("Лев", "Самец", "5 лет", "Барсик");
         // Создаем объект аллигатор
         Alligator alligatorGena = new Alligator("Аллигатор", "Самец", "3 года", "Гена");
-
         // Добавляем зверей в зоопарк
         myFavoriteZoo.setAnimalsList(lionBarsik);
         myFavoriteZoo.setAnimalsList(alligatorGena);
+        myFavoriteZoo.getAnimalsList();
 
         System.out.println(separator);
 

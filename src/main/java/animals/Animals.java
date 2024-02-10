@@ -20,13 +20,13 @@ public class Animals {
         return "Животные могут издавать звуки.";
     }
 
-    public String makeSound(String type) {
-        return type + " может издавать звуки.";
-    }
-
-    public String makeSound(String type, String name) {
-        return type + name + " может издавать звуки.";
-    }
+//    public String makeSound(String type) {
+//        return type + " может издавать звуки.";
+//    }
+//
+//    public String makeSound(String type, String name) {
+//        return type + name + " может издавать звуки.";
+//    }
 
     public String getType() {
         return type;
