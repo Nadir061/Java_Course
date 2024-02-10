@@ -9,8 +9,7 @@ public class Alligator extends Animals {
 
     @Override
     public String makeSound() {
-        return "Аллигатор ревет !";
+        return this.getType() + " ревет !";
     }
-
-
+    // TODO неправильно перегрузить
 }

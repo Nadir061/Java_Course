@@ -8,7 +8,7 @@ public class Lion extends Animals {
 
     @Override
     public String makeSound() {
-        return "Лев рычит !";
+        return this.getType() + " рычит !";
     }
-
+    // TODO неправильно перегрузить
 }

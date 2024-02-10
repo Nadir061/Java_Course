@@ -5,7 +5,7 @@ import animals.Lion;
 public class City {
 
     // Имя мэра
-    String nameMayor = "Pupsik";
+    String nameMayor = "Anam Nadir";
 
     static String time1 = "9:00-17:00";
     static String time2 = "18:00";
@@ -16,16 +16,15 @@ public class City {
         // Создаем объект зоопарк
         Zoo myFavoriteZoo = new Zoo();
 
-        // С помощью сеттеров устанавливаем значения для данных класса Zoo
+        // С помощью сеттеров устанавливаем значения для данных объекта класса Zoo
         myFavoriteZoo.setName("FunnyBober");
         myFavoriteZoo.setAddress("Moscow, VDNH");
         myFavoriteZoo.setWorkingHours("9:00-17:00");
 
         // Создаем объект лев
-        Lion lionBarsik = new Lion("Млекопитающие", "Самец", "5 лет", "Барсик");
-
+        Lion lionBarsik = new Lion("Лев", "Самец", "5 лет", "Барсик");
         // Создаем объект аллигатор
-        Alligator alligatorGena = new Alligator("Пресмыкающиеся", "Самец", "3 года", "Гена");
+        Alligator alligatorGena = new Alligator("Аллигатор", "Самец", "3 года", "Гена");
 
         // Добавляем зверей в зоопарк
         myFavoriteZoo.setAnimalsList(lionBarsik);
@@ -47,6 +46,7 @@ public class City {
 
         System.out.println(separator);
 
+        // Выводим в консоль звуки, котрые могут издавать животные в зоопарке myFavoriteZoo
         for (Animals animal : myFavoriteZoo.getAnimalsList()) {
             System.out.println(animal.makeSound());
             System.out.println(separator);
